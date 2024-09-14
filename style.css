@@ -87,7 +87,9 @@ body {
 .top-right-card span {
     font-size: 1rem;
     margin: 10px;
+    margin-left: 20px;
     text-align: left;
+    max-width: 90vh;
 }
 
 .right-container .mid-right-card {
@@ -96,6 +98,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 
 .right-container .bottom-right-card {
