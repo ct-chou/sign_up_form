@@ -161,5 +161,24 @@ fieldset > div > div {
     flex: 1 1 0;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+
+button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    width:fit-content;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 20px;
+}
+
+.button-text {
+    margin: 10px;
+    margin-left:20px;
 }
