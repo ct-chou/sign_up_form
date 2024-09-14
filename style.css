@@ -20,7 +20,9 @@ input:valid {
 
 input:focus{
     border: 1px solid #00c8ff;
+    box-shadow:  2px 2px 5px rgba(0, 200, 255, 0.5);
     outline: none;
+    
 }
 
 body {
