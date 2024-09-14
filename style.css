@@ -7,7 +7,7 @@
 
 input {
     width: max(80%);
-    border: 1px solid black;
+    border: 1px solid #000000;
 }
 
 input:invalid{
@@ -28,8 +28,8 @@ input:focus{
 body {
     margin: 0px;
     padding: 0px;
-    background-color: #fcb53b;
-   }
+    background-color: #f3f3f3;
+}
 
 .flex-container {
     display:flex;
@@ -98,7 +98,6 @@ body {
 
 .right-container .top-right-card {
     flex: 1 1 0;
-    background-color: #f3f3f3;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,6 +120,13 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
+    box-shadow: 2px 5px 8px rgba(0, 0, 0, 0.5);
+}
+
+fieldset {
+    border:0;
+    padding: 10px;
+    margin: 10px;
 }
 
 .mid-right-card form {
@@ -153,7 +159,6 @@ fieldset > div > div {
 
 .right-container .bottom-right-card {
     flex: 1 1 0;
-    background-color: #f3f3f3;
     display: flex;
     justify-content: center;
     align-items: center;
